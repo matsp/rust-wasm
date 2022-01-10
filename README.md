@@ -12,4 +12,12 @@ rustup target add wasm32-wasi
 
 ```
 cargo build --release --target wasm32-wasi
+
+--> [242K]  rust-wasm.wasm
+```
+
+## execute
+
+```
+wasmer rust-wasm.wasm
 ```
